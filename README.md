@@ -96,7 +96,8 @@ Follow these detailed steps to deploy your React app to OpenShift Sandbox:
 
 After successful deployment, your app should display the following message:
 
-![App Output](./app-output.png)
+<img width="282" height="615" alt="image" src="https://github.com/user-attachments/assets/916f2180-2a0a-4372-9cf4-73d43ada5f30" />
+
 
 The screenshot above shows the app running on OpenShift Sandbox, accessible via the provided route URL.
 
