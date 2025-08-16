@@ -9,9 +9,16 @@ This project demonstrates how to build and deploy a simple React app (using Vite
 - Dockerfile for containerization
 - Ready for OpenShift deployment
 
+
 ## Project Structure
 
 - `src/` - React source code
+	- `App.css` - Styles for the main app component
+	- `App.jsx` - Main React component
+	- `index.css` - Global styles
+	- `main.jsx` - Entry point for the React app
+	- `assets/` - Asset folder
+		- `react.svg` - React logo used in the app
 - `public/` - Static assets
 - `dist/` - Production build output (created by `npm run build`)
 - `Dockerfile` - Container build instructions
@@ -30,6 +37,25 @@ This project demonstrates how to build and deploy a simple React app (using Vite
 	```sh
 	npm run build
 	```
+
+## App.jsx Source Code
+
+Below is the main React component used in this project:
+
+```jsx
+import './App.css';
+
+function App() {
+	console.log('Hello, this is a simple message displayed by the app!');
+	return (
+		<div className="simple-message">
+			<h1>Hello, this is a simple message displayed by the app!</h1>
+		</div>
+	);
+}
+
+export default App
+```
 
 ## Dockerfile Overview
 
