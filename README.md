@@ -91,7 +91,16 @@ Follow these detailed steps to deploy your React app to OpenShift Sandbox:
 	- Click the link to open your app in the browser.
 	- *Snapshot: A route URL (e.g., `https://rev15-test-01-react-openshift-deploy-<namespace>.apps.<cluster>.openshift.com`).*
 
-You can take screenshots during your deployment and add them to this section for visual reference.
+
+## Final Output
+
+After successful deployment, your app should display the following message:
+
+![App Output](./app-output.png)
+
+The screenshot above shows the app running on OpenShift Sandbox, accessible via the provided route URL.
+
+
 
 ## Troubleshooting
 
